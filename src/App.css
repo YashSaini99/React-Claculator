@@ -1,0 +1,109 @@
+.App-name {
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 10s linear;
+    height: 60px;
+    vertical-align: middle;
+    margin-left: -10px;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+    background-color: #282c34;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2334373e' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.container {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 450px;
+    padding: 0 20px 20px 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+.display {
+    display: flex;
+    outline: none;
+}
+
+.history-list {
+    border: 1px solid lightgray;
+    min-height: 45px;
+    overflow-y: scroll;
+    max-height: 128px;
+    padding: 5px;
+    color: gray;
+}
+
+.exp {
+    font-size: 20px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer a {
+    color: rgba(0, 0, 0, 0.4)
+}
+
+tr:hover {
+    background-color: #fafafa;
+}
+
+tr:nth-child(odd) {
+    background-color: #fafafa;
+    border-bottom: 1px solid lightgray;
+}
+
+table {
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+}
+
+button {
+    flex: 1;
+    font-size: 20px;
+    height: 50px;
+    background-color: #fafafa;
+    border: 1px solid lightgray;
+}
+
+
+input {
+    padding: 10px 15px 10px 15px;
+    flex: 1;
+    font-size: 2em;
+    text-align: right;
+    border: 1px solid lightgray;
+    background-color: #fafafa;
+    width: 100%;
+}
