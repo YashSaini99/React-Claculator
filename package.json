@@ -10,7 +10,7 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.5"
   },
-  "homepage": "http://isaychris.github.io/react-calculator",
+  "homepage": "https://yashsaini99.github.io/React-Claculator",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
