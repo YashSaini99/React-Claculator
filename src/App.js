@@ -192,7 +192,7 @@ class App extends Component {
                 <History history={this.state.history} updateDisplayHistory={this.updateDisplayHistory}/><br/>
 
                 <div className="footer">
-                    <a href="https://github.com/isaychris/react-calculator">Get the codes on GitHub</a>
+                    <a href="https://github.com/YashSaini99/React-Claculator">Get the codes on GitHub</a>
                 </div>
             </div>
         );
