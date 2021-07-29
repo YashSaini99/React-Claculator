@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-// This is a class component of a calculator key
+
 class Key extends Component {
     handleClick = (e) => {
         e.preventDefault(); 
