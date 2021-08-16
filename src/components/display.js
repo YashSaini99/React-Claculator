@@ -1,6 +1,5 @@
 import React from 'react';
 
-// This is a class component which shows the users input
 const Display = (props) => {
     function handleChange(e) {
     }
